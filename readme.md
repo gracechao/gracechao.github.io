@@ -1,70 +1,118 @@
-# Getting Started with Create React App
+# Grace Chao - Writer Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive portfolio website for writers built with HTML5, CSS3, and vanilla JavaScript. Optimized for GitHub Pages hosting.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Responsive Design**: Fully responsive layout that works on all devices
+- **Modern UI/UX**: Clean, professional design with smooth animations
+- **SEO Optimized**: Proper meta tags and semantic HTML structure
+- **Performance Optimized**: Fast loading with modern web practices
+- **Accessibility**: WCAG compliant with proper ARIA labels and keyboard navigation
+- **Interactive Elements**: Smooth scrolling, mobile menu, and hover effects
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **HTML5**: Semantic markup with proper structure
+- **CSS3**: Modern styling with Flexbox and Grid layouts
+- **JavaScript (ES6+)**: Vanilla JavaScript for interactivity
+- **Google Fonts**: Professional typography with Playfair Display and Source Sans Pro
+- **Unsplash**: High-quality placeholder images
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## File Structure
 
-### `npm test`
+```
+gracechao.github.io/
+├── index.html          # Main HTML file
+├── styles.css          # CSS styles and responsive design
+├── script.js           # JavaScript functionality
+└── README.md           # This file
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Sections
 
-### `npm run build`
+1. **Header/Navigation**: Fixed header with smooth scrolling navigation
+2. **Hero Section**: Professional photo with introduction and call-to-action buttons
+3. **Press Section**: Featured press coverage and recognition
+4. **Writing Section**: Showcase of recent work and publications
+5. **Contact Section**: Contact information and social media links
+6. **Footer**: Copyright and additional information
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Deployment to GitHub Pages
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Option 1: Direct Upload (Recommended)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Create a new repository named `yourusername.github.io` on GitHub
+2. Upload all files to the repository
+3. Go to repository Settings → Pages
+4. Select "Deploy from a branch" and choose "main" branch
+5. Your site will be available at `https://yourusername.github.io`
 
-### `npm run eject`
+### Option 2: Using Git
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+# Clone your repository
+git clone https://github.com/yourusername/yourusername.github.io.git
+cd yourusername.github.io
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Copy all files to the repository folder
+# Then commit and push
+git add .
+git commit -m "Initial portfolio website"
+git push origin main
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Customization
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Personal Information
 
-## Learn More
+- Update the name "Grace Chao" throughout the HTML
+- Replace the email address in the contact section
+- Add your actual social media links
+- Update the profile photo URL with your own image
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Content
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Modify the hero section introduction text
+- Update press items with your actual achievements
+- Replace writing samples with your real work
+- Add your actual portfolio pieces and links
 
-### Code Splitting
+### Styling
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Colors can be customized in the CSS variables section
+- Fonts can be changed by updating the Google Fonts imports
+- Layout adjustments can be made in the responsive breakpoints
 
-### Analyzing the Bundle Size
+### Images
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Replace the Unsplash placeholder image with your professional headshot
+- Optimize images for web (WebP format recommended)
+- Ensure images are properly sized for fast loading
 
-### Making a Progressive Web App
+## Performance Tips
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **Image Optimization**: Use WebP format and appropriate sizes
+- **Minification**: Minify CSS and JavaScript for production
+- **CDN**: Consider using a CDN for faster global loading
+- **Caching**: Implement proper caching headers
 
-### Advanced Configuration
+## Browser Support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+- Mobile browsers (iOS Safari, Chrome Mobile)
 
-### Deployment
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This project is open source and available under the [MIT License](LICENSE).
 
-### `npm run build` fails to minify
+## Support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For questions or support, please contact [your-email@domain.com](mailto:your-email@domain.com).
+
+---
+
+Built with ❤️ for writers and creators.
